@@ -10,6 +10,8 @@ from app.core.database import Base
 import os
 from dotenv import load_dotenv, dotenv_values 
 
+load_dotenv()
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
